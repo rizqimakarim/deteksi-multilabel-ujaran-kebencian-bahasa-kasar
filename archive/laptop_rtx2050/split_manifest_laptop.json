@@ -1,0 +1,73 @@
+{
+  "seed": 42,
+  "stats": {
+    "raw_rows": 13169,
+    "exact_dup_removed": 265,
+    "label_conflict_keys_removed": 15,
+    "after_exact_dedup": 12904,
+    "near_dup_removed_from_train": 10,
+    "exact_overlap_train_vs_heldout": 0
+  },
+  "chunk_stats": {
+    "fixed": {
+      "n_chunks": 18,
+      "total_chars": 7937
+    },
+    "heading": {
+      "n_chunks": 25,
+      "total_chars": 5444
+    },
+    "hierarchical": {
+      "n_chunks": 47,
+      "total_chars": 5381
+    }
+  },
+  "splits": {
+    "train": {
+      "file": "data/processed/train.jsonl",
+      "sha256": "d6da16ee10f5c21755e97b8ac251535b844c1e16f6bd9298d86a5c4629440253",
+      "n": 12594,
+      "n_in_scope": 12594,
+      "n_out_of_scope": 0,
+      "label_prevalence": {
+        "HS": 0.4224,
+        "Abusive": 0.3835,
+        "HS_Individual": 0.2708,
+        "HS_Group": 0.1517
+      }
+    },
+    "dev": {
+      "file": "data/processed/dev.jsonl",
+      "sha256": "40888028316dfa99409b11196b66838cadc49804f521b9286af3d501e36700dd",
+      "n": 110,
+      "n_in_scope": 100,
+      "n_out_of_scope": 10,
+      "label_prevalence": {
+        "HS": 0.43,
+        "Abusive": 0.38,
+        "HS_Individual": 0.28,
+        "HS_Group": 0.15
+      }
+    },
+    "test": {
+      "file": "data/processed/test.jsonl",
+      "sha256": "04dda6f183f4b15fb9cdd8a988d082409aaad9765c6a90ec7b94b1830758b665",
+      "n": 220,
+      "n_in_scope": 200,
+      "n_out_of_scope": 20,
+      "label_prevalence": {
+        "HS": 0.42,
+        "Abusive": 0.38,
+        "HS_Individual": 0.265,
+        "HS_Group": 0.155
+      }
+    }
+  },
+  "corpus": {
+    "n_example_docs": 12594,
+    "corpus_examples_sha256": "62d5f65ad4e18740ce2b8f44e1bc63f1032f7cb5ff91a2b5a33053a67780a29a",
+    "qrels_sha256": "e6271078f3e0b76d3d871b7c36605d2af28b491908e728a842085c9affc611a6",
+    "n_qrels": 531
+  },
+  "locked_test": "test.jsonl dikunci: hanya dipakai untuk evaluasi akhir; pemilihan konfigurasi memakai dev."
+}

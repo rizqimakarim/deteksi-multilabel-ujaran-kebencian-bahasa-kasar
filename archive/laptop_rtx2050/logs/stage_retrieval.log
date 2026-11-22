@@ -1,0 +1,80 @@
+===== stage retrieval =====
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 2531.13it/s]
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights:  82%|████████▏ | 165/201 [00:00<00:00, 1649.82it/s]Loading weights: 100%|██████████| 201/201 [00:00<00:00, 1989.98it/s]
+{
+ "A1_chunking": {
+  "fixed": {
+   "recall@5": 0.6341,
+   "recall@10": 0.8924,
+   "ndcg@10": 0.5549,
+   "mrr@10": 0.488,
+   "top5_relevant_frac": 0.3245,
+   "ctx_chars_top5": 2169.9136,
+   "ms": 523.0178,
+   "n_chunks": 18,
+   "index_chars": 7937
+  },
+  "heading": {
+   "recall@5": 0.425,
+   "recall@10": 0.7015,
+   "ndcg@10": 0.3935,
+   "mrr@10": 0.3218,
+   "top5_relevant_frac": 0.1755,
+   "ctx_chars_top5": 893.1955,
+   "ms": 450.611,
+   "n_chunks": 25,
+   "index_chars": 5444
+  },
+  "hierarchical": {
+   "recall@5": 0.3273,
+   "recall@10": 0.5288,
+   "ndcg@10": 0.2952,
+   "mrr@10": 0.2499,
+   "top5_relevant_frac": 0.1527,
+   "ctx_chars_top5": 3249.7727,
+   "ms": 336.7449,
+   "n_chunks": 47,
+   "index_chars": 5381
+  }
+ },
+ "A2_retriever": {
+  "dense": {
+   "recall@5": 0.7492,
+   "recall@10": 0.9545,
+   "ndcg@10": 0.6074,
+   "mrr@10": 0.5101,
+   "ms": 22.3516,
+   "p95_ms": 11.92,
+   "example_label_precision@5": 0.461
+  },
+  "bm25": {
+   "recall@5": 0.5364,
+   "recall@10": 0.7568,
+   "ndcg@10": 0.4709,
+   "mrr@10": 0.4141,
+   "ms": 0.1753,
+   "p95_ms": 0.37,
+   "example_label_precision@5": 0.564
+  },
+  "hybrid": {
+   "recall@5": 0.5833,
+   "recall@10": 0.8909,
+   "ndcg@10": 0.5355,
+   "mrr@10": 0.4331,
+   "ms": 17.202,
+   "p95_ms": 11.58,
+   "example_label_precision@5": 0.519
+  },
+  "hybrid_rerank": {
+   "recall@5": 0.425,
+   "recall@10": 0.7015,
+   "ndcg@10": 0.3935,
+   "mrr@10": 0.3218,
+   "ms": 431.2134,
+   "p95_ms": 2106.9,
+   "example_label_precision@5": 0.515
+  }
+ }
+}
+===== stage retrieval selesai 503s =====

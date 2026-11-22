@@ -1,0 +1,22 @@
+===== stage dev =====
+[dev_B4] macroF1=0.5759 microF1=0.6034 evid=1.0 oos_abst=0.9667 p95=956.4
+[dev_B5] macroF1=0.6924 microF1=0.7368 evid=1.0 oos_abst=0.9667 p95=844.6
+===== stage dev selesai 137s =====
+
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/290 [00:00<00:52,  5.48it/s]
+Loading weights:  67%|██████▋   | 195/290 [00:00<00:00, 833.07it/s]
+Loading weights: 100%|██████████| 290/290 [00:00<00:00, 744.33it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 2725.20it/s]
+
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 201/201 [00:00<00:00, 2668.40it/s]
+
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/290 [00:00<01:36,  2.99it/s]
+Loading weights: 100%|██████████| 290/290 [00:00<00:00, 687.92it/s]
+/usr/local/lib/python3.13/dist-packages/peft/import_utils.py:195: UserWarning: Found an incompatible version of torchao. Found version 0.10.0, but only versions above 0.16.0 are supported. torchao support in PEFT is disabled; if you want to use a torchao-quantized model with PEFT, please upgrade torchao.
+  warnings.warn(

@@ -1,0 +1,14 @@
+===== stage test =====
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:   7%|▋         | 20/290 [00:00<00:01, 180.51it/s]Loading weights:  14%|█▍        | 42/290 [00:00<00:01, 190.80it/s]Loading weights:  21%|██▏       | 62/290 [00:00<00:01, 142.95it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 619.48it/s]
+[test_B0] macroF1=0.1615 microF1=0.337 evid=0.0 oos_abst=0.0 p95=279.7
+[test_B1] macroF1=0.0946 microF1=0.1333 evid=0.9 oos_abst=0.0 p95=367.9
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 3202.63it/s]
+[test_B2] macroF1=0.4283 microF1=0.5063 evid=0.9082 oos_abst=0.0 p95=915.2
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|██████████| 201/201 [00:00<00:00, 2589.02it/s]
+[test_B3] macroF1=0.4738 microF1=0.5368 evid=0.9664 oos_abst=0.05 p95=1195.5
+[test_B4] macroF1=0.5494 microF1=0.5758 evid=1.0 oos_abst=0.95 p95=1397.2
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:   5%|▍         | 14/290 [00:00<00:02, 127.37it/s]Loading weights:   9%|▉         | 27/290 [00:00<00:02, 105.02it/s]Loading weights:  16%|█▌        | 47/290 [00:00<00:01, 136.65it/s]Loading weights:  23%|██▎       | 67/290 [00:00<00:01, 155.61it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 559.67it/s]
+[test_B5] macroF1=0.6417 microF1=0.7024 evid=0.99 oos_abst=0.95 p95=1288.0
+[test_B6] macroF1=0.6689 microF1=0.7258 evid=0.98 oos_abst=0.95 p95=2099.6
+===== stage test selesai 1063s =====

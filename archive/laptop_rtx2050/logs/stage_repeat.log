@@ -1,0 +1,28 @@
+===== stage repeat =====
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:   3%|▎         | 8/290 [00:00<00:03, 71.49it/s]Loading weights:   7%|▋         | 19/290 [00:00<00:03, 86.25it/s]Loading weights:  12%|█▏        | 34/290 [00:00<00:02, 105.41it/s]Loading weights:  16%|█▌        | 45/290 [00:00<00:02, 88.72it/s] Loading weights:  21%|██        | 61/290 [00:00<00:02, 107.14it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 467.31it/s]
+[repeat_B0_seed11] macroF1=0.1694 microF1=0.2759 evid=0.0 oos_abst=0.2 p95=498.6
+[repeat_B0_seed22] macroF1=0.1667 microF1=0.2642 evid=0.0714 oos_abst=0.0 p95=563.7
+[repeat_B0_seed33] macroF1=0.1726 microF1=0.2759 evid=0.0 oos_abst=0.2 p95=614.1
+[repeat_B1_seed11] macroF1=0.2381 microF1=0.2903 evid=0.7895 oos_abst=0.0 p95=548.4
+[repeat_B1_seed22] macroF1=0.2894 microF1=0.303 evid=0.8947 oos_abst=0.0 p95=470.7
+[repeat_B1_seed33] macroF1=0.2542 microF1=0.2769 evid=0.7143 oos_abst=0.0 p95=468.7
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 2641.70it/s]
+[repeat_B2_seed11] macroF1=0.2854 microF1=0.3714 evid=0.8261 oos_abst=0.0 p95=625.2
+[repeat_B2_seed22] macroF1=0.2966 microF1=0.338 evid=0.7727 oos_abst=0.0 p95=605.9
+[repeat_B2_seed33] macroF1=0.432 microF1=0.5278 evid=0.8696 oos_abst=0.0 p95=594.7
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|██████████| 201/201 [00:00<00:00, 2637.18it/s]
+[repeat_B3_seed11] macroF1=0.3327 microF1=0.4304 evid=0.8889 oos_abst=0.0 p95=895.4
+[repeat_B3_seed22] macroF1=0.3776 microF1=0.3947 evid=1.0 oos_abst=0.0 p95=869.2
+[repeat_B3_seed33] macroF1=0.4631 microF1=0.5366 evid=0.8519 oos_abst=0.2 p95=842.0
+[repeat_B4_seed11] macroF1=0.4632 microF1=0.5 evid=1.0 oos_abst=1.0 p95=1493.8
+[repeat_B4_seed22] macroF1=0.5039 microF1=0.5495 evid=0.96 oos_abst=1.0 p95=1305.9
+[repeat_B4_seed33] macroF1=0.4722 microF1=0.5208 evid=1.0 oos_abst=1.0 p95=1584.0
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:   8%|▊         | 22/290 [00:00<00:01, 206.43it/s]Loading weights:  15%|█▌        | 44/290 [00:00<00:01, 193.20it/s]Loading weights:  22%|██▏       | 64/290 [00:00<00:01, 157.29it/s]Loading weights:  28%|██▊       | 81/290 [00:00<00:01, 160.58it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 506.34it/s]
+[repeat_B5_seed11] macroF1=0.6259 microF1=0.7027 evid=1.0 oos_abst=1.0 p95=1338.8
+[repeat_B5_seed22] macroF1=0.5793 microF1=0.6133 evid=1.0 oos_abst=1.0 p95=1325.3
+[repeat_B5_seed33] macroF1=0.5833 microF1=0.7105 evid=1.0 oos_abst=1.0 p95=1213.0
+[repeat_B6_seed11] macroF1=0.6748 microF1=0.725 evid=0.9375 oos_abst=1.0 p95=3011.8
+[repeat_B6_seed22] macroF1=0.5492 microF1=0.6053 evid=1.0 oos_abst=1.0 p95=7114.2
+[repeat_B6_seed33] macroF1=0.6294 microF1=0.6667 evid=1.0 oos_abst=1.0 p95=7151.9
+===== stage repeat selesai 849s =====

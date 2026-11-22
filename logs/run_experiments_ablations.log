@@ -1,0 +1,26 @@
+===== stage ablations =====
+[test_B6_notools] macroF1=0.6759 microF1=0.7332 evid=1.0 oos_abst=0.7 p95=825.6
+[test_B4_fixedretr] macroF1=0.5788 microF1=0.6025 evid=1.0 oos_abst=0.7 p95=692.2
+[test_B4_budgetlarge] macroF1=0.5507 microF1=0.5698 evid=0.9928 oos_abst=0.7 p95=1029.2
+[test_B4_chunk_fixed] macroF1=0.4916 microF1=0.5231 evid=0.9898 oos_abst=0.7 p95=889.4
+[test_B4_chunk_hierarchical] macroF1=0.4714 microF1=0.4949 evid=1.0 oos_abst=0.7 p95=927.3
+[test_B3_fixedchunk] macroF1=0.4331 microF1=0.49 evid=0.9271 oos_abst=0.0 p95=667.7
+===== stage ablations selesai 763s =====
+
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/290 [00:00<01:12,  3.97it/s]
+Loading weights:  72%|███████▏  | 208/290 [00:00<00:00, 749.55it/s]
+Loading weights: 100%|██████████| 290/290 [00:00<00:00, 671.10it/s]
+/usr/local/lib/python3.13/dist-packages/peft/import_utils.py:195: UserWarning: Found an incompatible version of torchao. Found version 0.10.0, but only versions above 0.16.0 are supported. torchao support in PEFT is disabled; if you want to use a torchao-quantized model with PEFT, please upgrade torchao.
+  warnings.warn(
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 2673.89it/s]
+
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 201/201 [00:00<00:00, 2729.38it/s]
+
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/290 [00:00<01:29,  3.21it/s]
+Loading weights: 100%|██████████| 290/290 [00:00<00:00, 714.81it/s]

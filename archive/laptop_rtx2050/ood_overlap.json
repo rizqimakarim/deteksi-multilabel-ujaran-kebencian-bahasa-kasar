@@ -1,0 +1,6 @@
+{
+ "alfina_total": 713,
+ "overlap_removed": 193,
+ "clean_pool": 520,
+ "rule": "buang jika cosine char 3-5gram >= 0.8 terhadap tweet mana pun di re_dataset.csv"
+}

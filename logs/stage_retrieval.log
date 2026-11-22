@@ -1,0 +1,80 @@
+===== stage retrieval =====
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 2660.64it/s]
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|██████████| 201/201 [00:00<00:00, 2626.71it/s]
+{
+ "A1_chunking": {
+  "fixed": {
+   "recall@5": 0.6432,
+   "recall@10": 0.8924,
+   "ndcg@10": 0.5609,
+   "mrr@10": 0.4959,
+   "top5_relevant_frac": 0.3291,
+   "ctx_chars_top5": 2170.35,
+   "ms": 81.3031,
+   "n_chunks": 18,
+   "index_chars": 7937
+  },
+  "heading": {
+   "recall@5": 0.4159,
+   "recall@10": 0.697,
+   "ndcg@10": 0.3925,
+   "mrr@10": 0.3222,
+   "top5_relevant_frac": 0.1755,
+   "ctx_chars_top5": 897.1545,
+   "ms": 81.448,
+   "n_chunks": 25,
+   "index_chars": 5444
+  },
+  "hierarchical": {
+   "recall@5": 0.3227,
+   "recall@10": 0.5197,
+   "ndcg@10": 0.289,
+   "mrr@10": 0.2446,
+   "top5_relevant_frac": 0.1527,
+   "ctx_chars_top5": 3247.0136,
+   "ms": 70.4189,
+   "n_chunks": 47,
+   "index_chars": 5381
+  }
+ },
+ "A2_retriever": {
+  "dense": {
+   "recall@5": 0.7492,
+   "recall@10": 0.9545,
+   "ndcg@10": 0.6073,
+   "mrr@10": 0.5099,
+   "ms": 9.9087,
+   "p95_ms": 11.53,
+   "example_label_precision@5": 0.461
+  },
+  "bm25": {
+   "recall@5": 0.5318,
+   "recall@10": 0.7523,
+   "ndcg@10": 0.467,
+   "mrr@10": 0.4103,
+   "ms": 0.4814,
+   "p95_ms": 1.05,
+   "example_label_precision@5": 0.566
+  },
+  "hybrid": {
+   "recall@5": 0.5879,
+   "recall@10": 0.8909,
+   "ndcg@10": 0.536,
+   "mrr@10": 0.4334,
+   "ms": 10.5054,
+   "p95_ms": 12.69,
+   "example_label_precision@5": 0.521
+  },
+  "hybrid_rerank": {
+   "recall@5": 0.4159,
+   "recall@10": 0.697,
+   "ndcg@10": 0.3925,
+   "mrr@10": 0.3222,
+   "ms": 79.6619,
+   "p95_ms": 99.02,
+   "example_label_precision@5": 0.515
+  }
+ }
+}
+===== stage retrieval selesai 140s =====

@@ -1,0 +1,81 @@
+{
+ "run_id": "repeat_B0_seed22",
+ "time": "2026-11-22 06:49:03",
+ "n_items": 40,
+ "items_sha256": "c38ddca3f74e6c77",
+ "output_sha256": "3b95bf907bcd69b6",
+ "meta": {
+  "config": "B0",
+  "prompt_id": "P0_zero_shot@1.0",
+  "prompt_hash": "9019a91967f4",
+  "adapter": null,
+  "budget": {
+   "k_examples": 4,
+   "k_guides": 1,
+   "max_ctx_chars": 1400
+  },
+  "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+  "temperature": 0.7,
+  "seed": 22,
+  "as_of": "2026-11-20",
+  "parent": null,
+  "use_tools": null
+ },
+ "index_versions": {
+  "examples": "examples@f35ef74dca2ebae1",
+  "guide_heading": "guide_heading@e694167dac0741b9",
+  "guide_fixed": "guide_fixed@570e3bf74667f0c9"
+ },
+ "env": {
+  "python": "3.13.16",
+  "platform": "Linux-6.18.55+-x86_64-with-glibc2.39"
+ },
+ "metrics": {
+  "macro_f1": 0.2079,
+  "micro_f1": 0.3438,
+  "exact_match": 0.2857,
+  "hamming_loss": 0.3,
+  "per_label": {
+   "HS": {
+    "P": 0.125,
+    "R": 0.0714,
+    "F1": 0.0909,
+    "support": 14
+   },
+   "Abusive": {
+    "P": 0.625,
+    "R": 0.9091,
+    "F1": 0.7407,
+    "support": 11
+   },
+   "HS_Individual": {
+    "P": 0.0,
+    "R": 0.0,
+    "F1": 0.0,
+    "support": 8
+   },
+   "HS_Group": {
+    "P": 0.0,
+    "R": 0.0,
+    "F1": 0.0,
+    "support": 6
+   }
+  },
+  "selective_macro_f1": 0.2079,
+  "coverage_in_scope": 1.0,
+  "false_refusal_rate": 0.0,
+  "oos_abstain_recall": 0.2,
+  "evidence_support": 0.0435,
+  "unsupported_claim_rate": 0.96,
+  "parse_ok_rate": 1.0,
+  "ece": 0.3,
+  "cost": {
+   "mean_prompt_tokens": 119.2,
+   "mean_completion_tokens": 38.1,
+   "mean_llm_calls": 1.0,
+   "latency_mean_ms": 274.0,
+   "latency_p95_ms": 325.0,
+   "mean_retries": 0.0
+  }
+ }
+}

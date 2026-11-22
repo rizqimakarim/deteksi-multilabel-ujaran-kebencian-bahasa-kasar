@@ -1,0 +1,15 @@
+===== stage ablations =====
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:   0%|          | 1/290 [00:00<01:00,  4.75it/s]Loading weights:  70%|███████   | 203/290 [00:00<00:00, 808.88it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 705.65it/s]
+/usr/local/lib/python3.13/dist-packages/peft/import_utils.py:195: UserWarning: Found an incompatible version of torchao. Found version 0.10.0, but only versions above 0.16.0 are supported. torchao support in PEFT is disabled; if you want to use a torchao-quantized model with PEFT, please upgrade torchao.
+  warnings.warn(
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 2607.62it/s]
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|██████████| 201/201 [00:00<00:00, 2667.61it/s]
+[test_B6_notools] macroF1=0.6759 microF1=0.7332 evid=1.0 oos_abst=0.7 p95=816.3
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:   0%|          | 1/290 [00:00<01:06,  4.33it/s]Loading weights:  72%|███████▏  | 209/290 [00:00<00:00, 797.72it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 714.89it/s]
+[test_B4_fixedretr] macroF1=0.5788 microF1=0.6025 evid=1.0 oos_abst=0.7 p95=692.3
+[test_B4_budgetlarge] macroF1=0.5507 microF1=0.5698 evid=0.9928 oos_abst=0.7 p95=1016.5
+[test_B4_chunk_fixed] macroF1=0.4916 microF1=0.5231 evid=0.9898 oos_abst=0.7 p95=903.0
+[test_B4_chunk_hierarchical] macroF1=0.4714 microF1=0.4949 evid=1.0 oos_abst=0.7 p95=909.1
+[test_B3_fixedchunk] macroF1=0.4331 microF1=0.49 evid=0.9271 oos_abst=0.0 p95=660.4
+===== stage ablations selesai 762s =====

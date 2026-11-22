@@ -1,0 +1,23 @@
+.venv/
+__pycache__/
+# Alfina et al. 2017: dilarang redistribusi publik (ADR-011)
+data/ood/
+data/processed/emb_*.npy
+logs/serving.jsonl
+kaggle.json
+# Paper IEEE berhak cipta: jangan dipublikasikan
+docs/references/Alfina_et_al_2017_ICACSIS.pdf
+# hasil build paket Kaggle (dibuat ulang oleh tools/make_kaggle_package.py)
+dist/
+# notebook nama lama (sudah diganti)
+kaggle/tbp-*.ipynb
+kaggle/case-b-1-*.ipynb
+kaggle/case-b-2-*.ipynb
+kaggle/case-b-multi-label-*.ipynb
+# file pribadi / log runtime lokal
+*.jpeg
+logs/streamlit.log
+logs/serve_demo.log
+.claude/
+# Spesifikasi tugas dari dosen: tidak dipublikasikan di GitHub (tetap ada di dataset Kaggle private)
+NLP_IR.pdf

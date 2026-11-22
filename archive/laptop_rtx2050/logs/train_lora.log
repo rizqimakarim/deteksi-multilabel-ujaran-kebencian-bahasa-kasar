@@ -1,0 +1,33 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 3105.56it/s]
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|██████████| 201/201 [00:00<00:00, 2670.85it/s]
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:   6%|▌         | 16/290 [00:00<00:02, 136.46it/s]Loading weights:  11%|█         | 31/290 [00:00<00:01, 135.73it/s]Loading weights:  16%|█▌        | 46/290 [00:00<00:01, 136.54it/s]Loading weights:  21%|██        | 60/290 [00:00<00:02, 107.27it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 549.92it/s]
+D:\Quick Access\Download\tbp\.venv\Lib\site-packages\transformers\modeling_utils.py:3195: FutureWarning: `gradient_checkpointing_enable` is deprecated and will be removed in v6. Use `activation_checkpointing_enable` instead.
+  warnings.warn(
+{'step': 0, 'val_loss': 0.16875797738321124, 'dev_loss': 0.11439658775925636}
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.
+{'step': 10, 'train_loss': 0.12335393275134265, 'lr': 0.00019}
+{'step': 20, 'train_loss': 0.08889153570635244, 'lr': 0.00018}
+{'step': 30, 'train_loss': 0.0359019943716703, 'lr': 0.00017}
+{'step': 40, 'train_loss': 0.060465509188361466, 'lr': 0.00016}
+{'step': 50, 'train_loss': 0.08307986939325929, 'lr': 0.00015000000000000001}
+{'step': 50, 'val_loss': 0.0786921299128153, 'dev_loss': 0.0434013028255625}
+{'step': 60, 'train_loss': 0.06977888027904555, 'lr': 0.00014}
+{'step': 70, 'train_loss': 0.03382973320549354, 'lr': 0.00013000000000000002}
+{'step': 80, 'train_loss': 0.06028388283448294, 'lr': 0.00012}
+{'step': 90, 'train_loss': 0.0673727334360592, 'lr': 0.00011000000000000002}
+{'step': 100, 'train_loss': 0.08901208592578769, 'lr': 0.0001}
+{'step': 100, 'val_loss': 0.06449450271720707, 'dev_loss': 0.0397768438992595}
+{'step': 110, 'train_loss': 0.04938518555718474, 'lr': 8.999999999999999e-05}
+{'step': 120, 'train_loss': 0.05442376836435869, 'lr': 8e-05}
+{'step': 130, 'train_loss': 0.06958228975418024, 'lr': 7e-05}
+{'step': 140, 'train_loss': 0.09592123341280967, 'lr': 6.0000000000000015e-05}
+{'step': 150, 'train_loss': 0.06663547617790755, 'lr': 5e-05}
+{'step': 150, 'val_loss': 0.05572076743046637, 'dev_loss': 0.03436111776633576}
+{'step': 160, 'train_loss': 0.06397871337685501, 'lr': 3.999999999999999e-05}
+{'step': 170, 'train_loss': 0.06278655189089477, 'lr': 3.0000000000000008e-05}
+{'step': 180, 'train_loss': 0.055464268385549076, 'lr': 1.9999999999999995e-05}
+{'step': 190, 'train_loss': 0.0382649571984075, 'lr': 1.000000000000001e-05}
+{'step': 200, 'train_loss': 0.018019483770331135, 'lr': 0.0}
+{'step': 200, 'val_loss': 0.051694833799774645, 'dev_loss': 0.03432262482480534}
+{'train_seconds': 4256.0, 'data_prep_seconds': 400.9, 'peak_vram_gb': 4.49, 'adapter_bytes': 35243567}

@@ -1,0 +1,81 @@
+{
+ "run_id": "repeat_B6_seed22",
+ "time": "2026-11-22 06:55:21",
+ "n_items": 40,
+ "items_sha256": "c38ddca3f74e6c77",
+ "output_sha256": "9f58dd09c41c6976",
+ "meta": {
+  "config": "B6",
+  "prompt_id": "P2_rag@1.0",
+  "prompt_hash": "cf40df54b59c",
+  "adapter": "lora_b5",
+  "budget": {
+   "k_examples": 4,
+   "k_guides": 1,
+   "max_ctx_chars": 1400
+  },
+  "model_id": "Qwen/Qwen2.5-0.5B-Instruct",
+  "temperature": 0.7,
+  "seed": 22,
+  "as_of": "2026-11-20",
+  "parent": "B5",
+  "use_tools": true
+ },
+ "index_versions": {
+  "examples": "examples@f35ef74dca2ebae1",
+  "guide_heading": "guide_heading@e694167dac0741b9",
+  "guide_fixed": "guide_fixed@570e3bf74667f0c9"
+ },
+ "env": {
+  "python": "3.13.16",
+  "platform": "Linux-6.18.55+-x86_64-with-glibc2.39"
+ },
+ "metrics": {
+  "macro_f1": 0.5528,
+  "micro_f1": 0.6197,
+  "exact_match": 0.6,
+  "hamming_loss": 0.1929,
+  "per_label": {
+   "HS": {
+    "P": 0.8333,
+    "R": 0.7143,
+    "F1": 0.7692,
+    "support": 14
+   },
+   "Abusive": {
+    "P": 0.75,
+    "R": 0.5455,
+    "F1": 0.6316,
+    "support": 11
+   },
+   "HS_Individual": {
+    "P": 0.5556,
+    "R": 0.625,
+    "F1": 0.5882,
+    "support": 8
+   },
+   "HS_Group": {
+    "P": 0.3333,
+    "R": 0.1667,
+    "F1": 0.2222,
+    "support": 6
+   }
+  },
+  "selective_macro_f1": 0.5528,
+  "coverage_in_scope": 1.0,
+  "false_refusal_rate": 0.0,
+  "oos_abstain_recall": 1.0,
+  "evidence_support": 0.9231,
+  "unsupported_claim_rate": 0.0625,
+  "parse_ok_rate": 1.0,
+  "ece": 0.0886,
+  "cost": {
+   "mean_prompt_tokens": 2333.2,
+   "mean_completion_tokens": 107.2,
+   "mean_llm_calls": 3.55,
+   "latency_mean_ms": 1026.4,
+   "latency_p95_ms": 1852.3,
+   "mean_retries": 0.325
+  }
+ }
+}

@@ -1,0 +1,9 @@
+===== stage ood =====
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:   5%|▌         | 15/290 [00:00<00:02, 134.60it/s]Loading weights:  15%|█▌        | 44/290 [00:00<00:01, 198.99it/s]Loading weights:  22%|██▏       | 64/290 [00:00<00:01, 141.80it/s]Loading weights:  28%|██▊       | 80/290 [00:00<00:01, 120.25it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 469.40it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 2516.54it/s]
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|██████████| 201/201 [00:00<00:00, 2023.16it/s]
+B4 {'HS_P': 0.4673, 'HS_R': 0.8065, 'HS_F1': 0.5917, 'binary_macro_f1': 0.6465, 'abstain_rate': 0.03, 'n': 200}
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:   9%|▉         | 27/290 [00:00<00:01, 251.12it/s]Loading weights:  18%|█▊        | 53/290 [00:00<00:01, 166.97it/s]Loading weights:  25%|██▍       | 72/290 [00:00<00:01, 147.05it/s]Loading weights:  30%|███       | 88/290 [00:00<00:01, 140.48it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 452.90it/s]
+B5 {'HS_P': 0.4538, 'HS_R': 0.9516, 'HS_F1': 0.6146, 'binary_macro_f1': 0.6294, 'abstain_rate': 0.02, 'n': 200}
+===== stage ood selesai 392s =====

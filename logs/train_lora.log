@@ -1,0 +1,44 @@
+{'step': 0, 'val_loss': 0.16958758821710945, 'dev_loss': 0.11817015657822291}
+{'step': 10, 'train_loss': 0.0806631442392245, 'lr': 0.00019}
+{'step': 20, 'train_loss': 0.14161841245368123, 'lr': 0.00018}
+{'step': 30, 'train_loss': 0.0915766336984234, 'lr': 0.00017}
+{'step': 40, 'train_loss': 0.0601009576494107, 'lr': 0.00016}
+{'step': 50, 'train_loss': 0.10318886942695826, 'lr': 0.00015000000000000001}
+{'step': 50, 'val_loss': 0.08040143532416551, 'dev_loss': 0.03819073645766669}
+{'step': 60, 'train_loss': 0.07109820540063083, 'lr': 0.00014}
+{'step': 70, 'train_loss': 0.055894800016176305, 'lr': 0.00013000000000000002}
+{'step': 80, 'train_loss': 0.0457276607012318, 'lr': 0.00012}
+{'step': 90, 'train_loss': 0.0445274521043757, 'lr': 0.00011000000000000002}
+{'step': 100, 'train_loss': 0.048181961275986396, 'lr': 0.0001}
+{'step': 100, 'val_loss': 0.06328468694991898, 'dev_loss': 0.03769426284561632}
+{'step': 110, 'train_loss': 0.10208952819448314, 'lr': 8.999999999999999e-05}
+{'step': 120, 'train_loss': 0.033317977940896526, 'lr': 8e-05}
+{'step': 130, 'train_loss': 0.076877411454916, 'lr': 7e-05}
+{'step': 140, 'train_loss': 0.06611906120633648, 'lr': 6.0000000000000015e-05}
+{'step': 150, 'train_loss': 0.032360468081606086, 'lr': 5e-05}
+{'step': 150, 'val_loss': 0.05535774508553004, 'dev_loss': 0.032846604860484754}
+{'step': 160, 'train_loss': 0.05796705046668649, 'lr': 3.999999999999999e-05}
+{'step': 170, 'train_loss': 0.037152305943891406, 'lr': 3.0000000000000008e-05}
+{'step': 180, 'train_loss': 0.032298843798344024, 'lr': 1.9999999999999995e-05}
+{'step': 190, 'train_loss': 0.04060597260831855, 'lr': 1.000000000000001e-05}
+{'step': 200, 'train_loss': 0.040891951397497905, 'lr': 0.0}
+{'step': 200, 'val_loss': 0.052608333523221515, 'dev_loss': 0.032869607885125635}
+{'train_seconds': 1439.7, 'data_prep_seconds': 384.7, 'peak_vram_gb': 5.8, 'adapter_bytes': 35243516}
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 2777.05it/s]
+
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 201/201 [00:00<00:00, 2741.38it/s]
+
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/290 [00:00<00:53,  5.44it/s]
+Loading weights:  51%|█████     | 148/290 [00:00<00:00, 631.26it/s]
+Loading weights:  80%|███████▉  | 231/290 [00:00<00:00, 694.89it/s]
+Loading weights: 100%|██████████| 290/290 [00:00<00:00, 623.35it/s]
+/usr/local/lib/python3.13/dist-packages/transformers/modeling_utils.py:3195: FutureWarning: `gradient_checkpointing_enable` is deprecated and will be removed in v6. Use `activation_checkpointing_enable` instead.
+  warnings.warn(
+/usr/local/lib/python3.13/dist-packages/peft/import_utils.py:195: UserWarning: Found an incompatible version of torchao. Found version 0.10.0, but only versions above 0.16.0 are supported. torchao support in PEFT is disabled; if you want to use a torchao-quantized model with PEFT, please upgrade torchao.
+  warnings.warn(
+[transformers] `use_cache=True` is incompatible with gradient checkpointing. Setting `use_cache=False`.

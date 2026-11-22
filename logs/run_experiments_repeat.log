@@ -1,0 +1,42 @@
+===== stage repeat =====
+[repeat_B0_seed11] macroF1=0.1611 microF1=0.2414 evid=0.0 oos_abst=0.0 p95=325.5
+[repeat_B0_seed22] macroF1=0.2079 microF1=0.3438 evid=0.0435 oos_abst=0.2 p95=325.0
+[repeat_B0_seed33] macroF1=0.1742 microF1=0.2593 evid=0.0 oos_abst=0.0 p95=322.7
+[repeat_B1_seed11] macroF1=0.2185 microF1=0.3158 evid=0.9333 oos_abst=0.0 p95=363.2
+[repeat_B1_seed22] macroF1=0.1911 microF1=0.25 evid=0.875 oos_abst=0.0 p95=344.1
+[repeat_B1_seed33] macroF1=0.3403 microF1=0.3333 evid=0.7059 oos_abst=0.0 p95=364.7
+[repeat_B2_seed11] macroF1=0.3672 microF1=0.4 evid=0.8182 oos_abst=0.0 p95=433.0
+[repeat_B2_seed22] macroF1=0.4198 microF1=0.4359 evid=0.6923 oos_abst=0.0 p95=442.0
+[repeat_B2_seed33] macroF1=0.3369 microF1=0.4058 evid=0.8421 oos_abst=0.0 p95=443.0
+[repeat_B3_seed11] macroF1=0.3588 microF1=0.4198 evid=0.9259 oos_abst=0.0 p95=692.1
+[repeat_B3_seed22] macroF1=0.4611 microF1=0.4935 evid=1.0 oos_abst=0.0 p95=694.8
+[repeat_B3_seed33] macroF1=0.4762 microF1=0.5135 evid=0.913 oos_abst=0.0 p95=698.8
+[repeat_B4_seed11] macroF1=0.3619 microF1=0.4156 evid=1.0 oos_abst=1.0 p95=991.9
+[repeat_B4_seed22] macroF1=0.4678 microF1=0.4894 evid=1.0 oos_abst=1.0 p95=1175.6
+[repeat_B4_seed33] macroF1=0.4379 microF1=0.4651 evid=1.0 oos_abst=1.0 p95=1021.1
+[repeat_B5_seed11] macroF1=0.5537 microF1=0.625 evid=1.0 oos_abst=1.0 p95=908.7
+[repeat_B5_seed22] macroF1=0.6424 microF1=0.6866 evid=1.0 oos_abst=1.0 p95=1041.5
+[repeat_B5_seed33] macroF1=0.6435 microF1=0.7222 evid=1.0 oos_abst=1.0 p95=1058.6
+[repeat_B6_seed11] macroF1=0.6459 microF1=0.6462 evid=0.8571 oos_abst=1.0 p95=1861.6
+[repeat_B6_seed22] macroF1=0.5528 microF1=0.6197 evid=0.9231 oos_abst=1.0 p95=1852.3
+[repeat_B6_seed33] macroF1=0.4182 microF1=0.4706 evid=1.0 oos_abst=1.0 p95=1775.8
+===== stage repeat selesai 442s =====
+
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/290 [00:00<01:40,  2.87it/s]
+Loading weights:  92%|█████████▏| 267/290 [00:00<00:00, 774.45it/s]
+Loading weights: 100%|██████████| 290/290 [00:00<00:00, 628.71it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 199/199 [00:00<00:00, 2754.23it/s]
+
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 201/201 [00:00<00:00, 2667.94it/s]
+
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/290 [00:00<01:10,  4.08it/s]
+Loading weights:  72%|███████▏  | 208/290 [00:00<00:00, 760.52it/s]
+Loading weights: 100%|██████████| 290/290 [00:00<00:00, 672.32it/s]
+/usr/local/lib/python3.13/dist-packages/peft/import_utils.py:195: UserWarning: Found an incompatible version of torchao. Found version 0.10.0, but only versions above 0.16.0 are supported. torchao support in PEFT is disabled; if you want to use a torchao-quantized model with PEFT, please upgrade torchao.
+  warnings.warn(
